@@ -4,3 +4,49 @@
   box-sizing: border-box;
   font-family: 'Fredoka', sans-serif;
 }
+
+:root{
+  --title-color:#e53170;
+  --card-color:#000000;
+  --textmember-color: #ffffff;
+  --email-color:#6ecbf2;
+}
+/* utilities */
+
+.debug{
+  border: 1 solid black;
+  background-color:blanchedalmond;
+}
+
+
+
+
+
+
+
+/* /utilities */
+
+img{
+  width: 100%;
+}
+
+main h1{
+  color: var(--title-color);
+}
+
+.member-card{
+  background-color: var(--card-color);
+  
+}
+.card-text{
+  color: var(--textmember-color);
+}
+
+.card-text .email{
+  color: var(--email-color);
+}
+.card-image{
+ width: 130px;
+ height: 130px;
+}
+
