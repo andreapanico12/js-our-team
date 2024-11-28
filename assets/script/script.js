@@ -40,7 +40,7 @@ const teamMembers = [
 const teamBox = document.getElementById("team-box");
 
 
-
+teamBox.innerHTML=cardsStamp(teamMembers)
 
 
 
@@ -58,8 +58,25 @@ const teamBox = document.getElementById("team-box");
 function cardsStamp(array){
   let cards= ``;
   for(let element of array){
-    cards += /*funzione 2*/
+    cards += cardGen(element)
   }
   return cards
+}
+
+
+// Funzione 2
+
+function cardGen(member){
+  const{name,role,email,img} = member;
+  return `<div class="col">
+            <div class="member-card border m-2 d-flex ">
+              <div class="card-image flex-shrink-0 border"><img src="assets/${img}" alt=""></div>
+              <div class="card-text flex-grow-1 ps-4 pt-2">
+                <h2 class="name fw-bold fs-4 text-light">${name.toUpperCase()}</h2>
+               <p class="role fs-5 text-light m-0">${role}</p>
+                <p class="email fs-5 mt-2 ">${email}</p>
+            </div>
+          </div>
+        </div>`
 }
 
