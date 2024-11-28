@@ -36,3 +36,30 @@ const teamMembers = [
     img: "img/female3.png"
   }
 ];
+
+const teamBox = document.getElementById("team-box");
+
+
+
+
+
+
+
+
+
+
+
+// funzioni
+
+
+// Funzione 1: servirà a ciclare il nostro array di oggetti  per poi creare le card e concatenarle tra loro e poi inserirle nell'index.
+
+
+function cardsStamp(array){
+  let cards= ``;
+  for(let element of array){
+    cards += /*funzione 2*/
+  }
+  return cards
+}
+
