@@ -71,10 +71,10 @@ function cardGen(member){
   return `<div class="col">
             <div class="member-card border m-2 d-flex ">
               <div class="card-image flex-shrink-0 border"><img src="assets/${img}" alt=""></div>
-              <div class="card-text flex-grow-1 ps-4 pt-2">
-                <h2 class="name fw-bold fs-4 text-light">${name.toUpperCase()}</h2>
-               <p class="role fs-5 text-light m-0">${role}</p>
-                <p class="email fs-5 mt-2 ">${email}</p>
+              <div class="card-text ps-4 pt-2">
+                <h2 class="name fsz-15 fw-bold text-light">${name.toUpperCase()}</h2>
+               <p class="role fsz-12 text-light m-0">${role}</p>
+                <p class="email fsz-10 mt-2 ">${email}</p>
             </div>
           </div>
         </div>`

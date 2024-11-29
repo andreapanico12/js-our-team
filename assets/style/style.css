@@ -18,11 +18,17 @@
   background-color:blanchedalmond;
 }
 
+.fsz-15{
+  font-size: 1.5rem;
+}
 
+.fsz-12{
+  font-size: 1.2rem;
+}
 
-
-
-
+.fsz-10{
+  font-size: 1.0rem;
+}
 
 /* /utilities */
 
@@ -34,9 +40,10 @@ main h1{
   color: var(--title-color);
 }
 
+
 .member-card{
   background-color: var(--card-color);
-  
+
 }
 .card-text{
   color: var(--textmember-color);
